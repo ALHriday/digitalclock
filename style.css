@@ -1,0 +1,18 @@
+
+.ani{
+    transition: 1s ease-in-out;
+    animation: animate 1s ease infinite;
+}
+
+
+@keyframes animate {
+    0%{
+        margin-bottom: 250px;
+    }
+    50%{
+        margin: 0;
+    }
+    100%{
+        margin-top: 250px;
+    }
+}
