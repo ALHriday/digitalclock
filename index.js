@@ -14,7 +14,9 @@ function updateTime() {
 
     h > 12 ? ampm.innerText = "PM" : "AM";
 
-    let hour = h > 12 ? h % 12 : h < 10 ? "0" + h : h;
+    let hrs = h > 12 ? h % 12 : h;
+    let hour = hrs < 10 ? "0" + hrs : hrs;
+    
     let minute = m < 10 ? "0" + m : m;
     let second = s < 10 ? "0" + s : s;
 
