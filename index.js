@@ -20,6 +20,7 @@ function updateTime() {
 
     hours.innerText = hour;
     minutes.innerText = minute;
-    seconds.innerText = second;  
-}
+    seconds.innerText = second;
+};
+
 setInterval(updateTime, 1000);

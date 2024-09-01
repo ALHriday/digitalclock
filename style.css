@@ -1,18 +1,33 @@
 
 .ani{
     transition: 1s ease-in-out;
-    animation: animate 1s ease infinite;
+    animation: animate2 1s ease infinite;
 }
 
-
-@keyframes animate {
+/* @keyframes animate {
     0%{
         margin-bottom: 250px;
+        opacity: 0.2;
     }
     50%{
         margin: 0;
+        opacity: 1;
     }
     100%{
         margin-top: 250px;
+        opacity: 0.2;
+    }
+} */
+
+@keyframes animate2 {
+    0%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 1;
+        margin: 0;
+    }
+    100%{
+        opacity: 0.3;
     }
 }
